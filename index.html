@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="sl">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="CSS.css">
+   <title>Moja prva spletna stran</title>
+</head>
+
+
+<body>
+
+
+<nav class="meni">
+  <ul>
+    <li><a href="#">Domov</a></li>
+    <li>
+      <a href="#">Storitve</a>
+      <ul class="spustni-meni">
+        <li><a href="#">Oblikovanje</a></li>
+        <li><a href="#">Programiranje</a></li>
+        <li><a href="#">Podpora</a></li>
+      </ul>
+    </li>
+    <li><a href="#">O nas</a></li>
+    <li><a href="#">Kontakt</a></li>
+  </ul>
+</nav>
+
+
+<!-- KOMENTAR: vrste naslovov -->
+    <h1>Naslov prve spletne strani</h1>
+
+    <p>Tole pa je <span style="color: rgb(255, 49, 245);">pomembna</span> novica!</p>
+
+    <h2>Podnaslov</h2>
+    <h3>Podpodnaslov</h3>
+    <h4>Podpodpodnaslov</h4>
+    <h5>Podpodpodpodnaslov</h5>
+    <h6>Podpodpodpodpodnaslov</h6>
+
+
+    <h2>BESEDILO</h2>
+
+    <p>Tole pa je <span style="color: red;">pomembna</span> novica!</p>
+    <p>Prvi odstavek besedila.</p> <p>Lorem Ipsum is simply dummy text of the printing and 
+            typesetting industry. <em>Lorem Ipsum</em> has been the industry's 
+            standard <strong> dummy text</strong> ever since the 1500s, when an unknown 
+            printer took a galley of type and scrambled it to make a 
+            type specimen book. <br> It has survived not only five 
+            centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. <hr>
+        <p>It was popularised in 
+            the 1960s with the release of Letraset sheets containing 
+            Lorem Ipsum passages, and more recently with desktop 
+            publishing software like <u>Aldus PageMaker</u> including 
+            versions of Lorem Ipsum.</p><br>
+            <div>Tudi to je en način pisanja besedila.</div> <!--“div je splošen blokovni vsebnik. Uporabimo ga, kadar želimo več elementov združiti v en blok in ga potem skupaj oblikovati ali razporejati.”-->
+            <div>Tole pa je primer <span>vrstičnega elementa.</span></div> <!--span je za manjše dele znotraj vrstice,
+div pa za večje bloke vsebine.-->
+
+
+    <h2>SLIKE</h2>
+        <p>V tem delu si bomo ogledali, kako v spletno stran vključimo slike.</p><br>
+        <img src="SLIKE/slika1.jpg" alt="html koda" height="250" id="slika1">
+
+
+    <h2>POVEZAVE</h2>
+        <p>V tem delu si bomo ogledali, kako v spletno stran vključimo povezave.</p><br>
+        <a href="https://www.w3schools.com/html/html_links.asp" target="_self" class="navadne_povezave">W3Schools - HTML Links; Povezava se bo odprla v istem zavihku.</a><br>
+        <a href="https://www.w3schools.com/html/html_links.asp" target="_blank" class="navadne_povezave">Povezava se bo odprla v novem zavihku ali oknu.</a><br>
+        <a href="https://html.spec.whatwg.org/multipage/" target="_blank" class="navadne_povezave"><img src="Slike/slika1.jpg" alt="HTML koda" height="150"></a>
+
+
+    <h2>SEZNAMI</h2>
+        <p>V tem delu si bomo ogledali, kako v spletno stran vključimo sezname.</p><br>
+       
+        <h3>Neoštevilčen seznam (unordered list):</h3>
+        <ul>
+            <li>Prva točka,</li>
+            <li>Druga točka,</li>
+            <li>Tretja točka.</li>
+        </ul>
+
+        <h3>Oštevilčen seznam (ordered list):</h3>
+        <ol>
+            <li>Prva točka,</li>
+            <li>Druga točka,</li>
+            <li>Tretja točka.</li>
+        </ol>
+
+        <h3>Oštevilčen seznam (ordered list):</h3>
+        <ol>
+            <li>Prva točka,</li>
+            <li>Druga točka,</li>
+            <li>Tretja točka.</li>
+        </ol><br>
+
+        <h3>Oštevilčen seznam z drugačnim atributom številčenja:</h3>
+        <ol type="a"> <!-- tukaj je lahko tudi A, 1, I (rimske) -->
+            <li>Prva točka,</li>
+            <li>Druga točka,</li>
+            <li>Tretja točka.</li>
+        </ol><br>
+
+        <h3>Oštevilčen seznam z drugačnim atributom številčenja:</h3>
+        <ol start="-3"> <!-- tukaj je lahko tudi A, 1, I (rimske) -->
+            <li>Prva točka,</li>
+            <li>Druga točka,</li>
+            <li>Tretja točka.</li>
+        </ol><br>
+
+        <h3>Gnezden seznam</h3>
+        <ul>
+        <li>Prva točka</li>
+        <li>Druga točka
+            <ul>
+            <li>Druga_ena točka</li>
+            <li>Druga_dva točka</li>
+            </ul>
+        </li>
+        <li>Tretja točka</li>
+        </ul>
+
+    <h2>TABELA</h2>
+    <p>V tem delu si bomo ogledali, kako v spletno stran vključimo tabelo.</p><br>
+        <table>
+            <caption>Opis tabele</caption>
+            <tr>
+                <th>Naslovni 1</th>
+                <th>Naslovni 2</th>
+            </tr>
+            <tr>
+                <td>Prva</td>
+                <td>Opis prve.</td>
+            </tr>
+            <tr>
+                <td>Druga</td>
+                <td>Opis druge.</td>
+            </tr>
+        </table><br>
+
+
+
+    
+</body>
+
+<footer>
+    <hr> Noga spletne strani. Ponavadi je tukaj navedeno avtorstvo in licenca.
+</footer>
+</html>
+
+
+
+
